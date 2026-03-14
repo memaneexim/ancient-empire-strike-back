@@ -1,0 +1,14 @@
+{
+  "name": "Ancient Empire: Strike Back",
+  "short_name": "Ancient Empire",
+  "description": "Turn-based strategy game - Ancient Empire Strike Back",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#1a1408",
+  "theme_color": "#1a1408",
+  "icons": [
+    {"src": "img/other/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ],
+  "categories": ["games"]
+}
