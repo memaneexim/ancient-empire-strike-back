@@ -259,7 +259,7 @@
 		},
 
 		getLinkToStore: function (type) { // pro or normal
-			return this.link[this.get('os', true)][type || 'normal'];
+			var os = this.get('os', true); return (this.link[os] || this.link['android'])[type || 'normal'];
 			//return this.link[this.get('os', true)][type || (this.isNormal ? 'normal' : 'pro')];
 		}
 
