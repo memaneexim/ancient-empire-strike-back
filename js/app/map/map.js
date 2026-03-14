@@ -444,7 +444,7 @@
 
 				var dbMaster = this,
 					deferred = $.Deferred(),
-                    db = openDatabase(dbMaster.name, dbMaster.version, dbMaster.description, dbMaster.size),
+                    db = (window.openDatabase || function(){ return {transaction:function(cb){cb({executeSql:function(){}})}};}).call(window, dbMaster.name, dbMaster.version, dbMaster.description, dbMaster.size),
 					map = win.APP.map,
 					info = win.APP.info,
 					currentMapVersion = map.mapPackVersion,
