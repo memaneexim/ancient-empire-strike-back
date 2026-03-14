@@ -1,124 +1,8 @@
 /*jslint white: true, nomen: true */
-/* localStorage shim replacing deprecated WebSQL */
-(function(win) {
-    'use strict';
-    if (typeof win.openDatabase !== 'undefined') return; // already exists (old browser)
-    
-    var _store = {};
-    
-    function _getStore() {
-        try {
-            var raw = localStorage.getItem('ae_db');
-            return raw ? JSON.parse(raw) : {};
-        } catch(e) { return {}; }
-    }
-    function _saveStore(s) {
-        try { localStorage.setItem('ae_db', JSON.stringify(s)); } catch(e) {}
-    }
-    
-    // Fake tx object
-    function FakeTx(store, readOnly) {
-        this._store = store;
-        this._readOnly = readOnly;
-    }
-    FakeTx.prototype.executeSql = function(sql, params, success, error) {
-        var s = this._store;
-        var results = { rows: { length: 0, item: function() { return null; } } };
-        try {
-            sql = sql.trim();
-            // CREATE TABLE
-            if (/^CREATE TABLE/i.test(sql)) {
-                var tblC = sql.match(/IF NOT EXISTS (\w+)/i);
-                if (tblC && !s[tblC[1]]) s[tblC[1]] = [];
-                if (success) success(this, results);
-                return;
-            }
-            // DROP TABLE
-            if (/^DROP TABLE/i.test(sql)) {
-                var tblD = sql.match(/EXISTS (\w+)/i);
-                if (tblD) delete s[tblD[1]];
-                if (success) success(this, results);
-                return;
-            }
-            // INSERT
-            if (/^INSERT/i.test(sql)) {
-                var tblI = sql.match(/INTO (\w+)/i)[1];
-                if (!s[tblI]) s[tblI] = [];
-                // parse columns from sql
-                var cols = sql.match(/\(([^)]+)\) values/i)[1].split(',').map(function(c){return c.trim();});
-                var row = {};
-                cols.forEach(function(c,i){ row[c] = params[i]; });
-                s[tblI].push(row);
-                _saveStore(s);
-                if (success) success(this, results);
-                return;
-            }
-            // DELETE
-            if (/^DELETE/i.test(sql)) {
-                var tblDel = sql.match(/FROM (\w+)/i)[1];
-                if (s[tblDel]) {
-                    var whereDelCol = sql.match(/WHERE (\w+) =/i);
-                    if (whereDelCol) {
-                        var wc = whereDelCol[1];
-                        s[tblDel] = s[tblDel].filter(function(r){ return r[wc] !== params[0]; });
-                    } else {
-                        s[tblDel] = [];
-                    }
-                    _saveStore(s);
-                }
-                if (success) success(this, results);
-                return;
-            }
-            // SELECT
-            if (/^SELECT/i.test(sql)) {
-                var tblSel = sql.match(/FROM (\w+)/i)[1];
-                var rows = s[tblSel] ? JSON.parse(JSON.stringify(s[tblSel])) : [];
-                // WHERE clause
-                var whereSel = sql.match(/WHERE (\w+)=\?/i);
-                if (whereSel) {
-                    rows = rows.filter(function(r){ return r[whereSel[1]] === params[0]; });
-                }
-                // ORDER BY - simple string sort on jsMapKey
-                if (/ORDER BY jsMapKey ASC/i.test(sql)) {
-                    rows.sort(function(a,b){ return a.jsMapKey > b.jsMapKey ? 1 : -1; });
-                }
-                if (/ORDER BY date DESC/i.test(sql)) {
-                    rows.sort(function(a,b){ return a.date < b.date ? 1 : -1; });
-                }
-                var fakeRows = {
-                    length: rows.length,
-                    item: function(i) { return rows[i]; }
-                };
-                if (success) success(this, { rows: fakeRows });
-                return;
-            }
-        } catch(e) {
-            if (error) error(this, e);
-        }
-    };
-    
-    function FakeDB() {
-        this._store = _getStore();
-    }
-    FakeDB.prototype.transaction = function(cb, errCb, successCb) {
-        var tx = new FakeTx(this._store, false);
-        try { cb(tx); if (successCb) successCb(); }
-        catch(e) { if (errCb) errCb(e); }
-    };
-    FakeDB.prototype.readTransaction = function(cb, errCb, successCb) {
-        this.transaction(cb, errCb, successCb);
-    };
-    
-    win.openDatabase = function(name, version, desc, size) {
-        return new FakeDB();
-    };
-}(window));
-
-/*jslint white: true, nomen: true */
 (function (win, doc) {
 
 	'use strict';
-	/*global window, document */
+	/*global window, document, openDatabase */
 	/*global $, _ */
 
 	win.APP.map = {
@@ -444,7 +328,37 @@
 
 				var dbMaster = this,
 					deferred = $.Deferred(),
-                    db = (window.openDatabase || function(){ return {transaction:function(cb){cb({executeSql:function(){}})}};}).call(window, dbMaster.name, dbMaster.version, dbMaster.description, dbMaster.size),
+                    db = (function(){
+                        function gs(){try{return JSON.parse(localStorage.getItem('ae2db')||'{}')}catch(e){return{}}}
+                        function ss(s){try{localStorage.setItem('ae2db',JSON.stringify(s))}catch(e){}}
+                        function T(s){this.s=s;}
+                        T.prototype.executeSql=function(q,p,ok,er){
+                            var s=this.s,r={rows:{length:0,item:function(){return null;}}};
+                            try{
+                                q=q.trim();
+                                if(/^CREATE TABLE/i.test(q)){var m=q.match(/EXISTS (\w+)/i);if(m&&!s[m[1]])s[m[1]]=[];ss(s);return ok&&ok(this,r);}
+                                if(/^DROP TABLE/i.test(q)){var m=q.match(/EXISTS (\w+)/i);if(m)delete s[m[1]];ss(s);return ok&&ok(this,r);}
+                                if(/^INSERT/i.test(q)){
+                                    var t=q.match(/INTO (\w+)/i)[1],c=q.match(/\(([^)]+)\)\s*values/i)[1].split(',').map(function(x){return x.trim();}),row={};
+                                    c.forEach(function(k,i){row[k]=p[i];});if(!s[t])s[t]=[];s[t].push(row);ss(s);return ok&&ok(this,r);
+                                }
+                                if(/^DELETE/i.test(q)){
+                                    var t=q.match(/FROM (\w+)/i)[1],wh=q.match(/WHERE (\w+)\s*=/i);
+                                    if(s[t])s[t]=wh?s[t].filter(function(x){return x[wh[1]]!==p[0];}):[];ss(s);return ok&&ok(this,r);
+                                }
+                                if(/^SELECT/i.test(q)){
+                                    var t=q.match(/FROM (\w+)/i)[1],rows=(s[t]||[]).slice(),wh=q.match(/WHERE (\w+)=\?/i);
+                                    if(wh)rows=rows.filter(function(x){return x[wh[1]]===p[0];});
+                                    if(/ORDER BY jsMapKey ASC/i.test(q))rows.sort(function(a,b){return a.jsMapKey>b.jsMapKey?1:-1;});
+                                    if(/ORDER BY date DESC/i.test(q))rows.sort(function(a,b){return a.date<b.date?1:-1;});
+                                    return ok&&ok(this,{rows:{length:rows.length,item:function(i){return rows[i];}}});
+                                }
+                            }catch(e){er&&er(this,e);}
+                        };
+                        function D(){this.s=gs();}
+                        D.prototype.transaction=D.prototype.readTransaction=function(cb,er,ok){var tx=new T(this.s);try{cb(tx);ss(tx.s);ok&&ok();}catch(e){er&&er(e);}};
+                        return new D();
+                    }()),
 					map = win.APP.map,
 					info = win.APP.info,
 					currentMapVersion = map.mapPackVersion,
