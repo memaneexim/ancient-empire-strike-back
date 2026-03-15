@@ -588,7 +588,9 @@
 				dX = Math.abs(unitX - enemyX),
 				dY = Math.abs(unitY - enemyY);
 
-			return dX + dY <= 1;
+			var dist = dX + dY;
+			var unitRange = unit.get('attackRange') || 1;
+			return dist >= 1 && dist <= unitRange;
 
 		},
 
