@@ -1,0 +1,278 @@
+
+/* unit-cave-troll */
+.unit-image-unit-cave-troll-red { background-image: url(../i/unit/unit-unit-cave-troll-red.png); }
+.unit-image-unit-cave-troll-blue { background-image: url(../i/unit/unit-unit-cave-troll-blue.png); }
+.unit-image-unit-cave-troll-green { background-image: url(../i/unit/unit-unit-cave-troll-green.png); }
+.unit-image-unit-cave-troll-black { background-image: url(../i/unit/unit-unit-cave-troll-black.png); }
+.unit-image-unit-cave-troll-gray { background-image: url(../i/unit/unit-unit-cave-troll-gray.png); }
+
+/* unit-elf-archer */
+.unit-image-unit-elf-archer-red { background-image: url(../i/unit/unit-unit-elf-archer-red.png); }
+.unit-image-unit-elf-archer-blue { background-image: url(../i/unit/unit-unit-elf-archer-blue.png); }
+.unit-image-unit-elf-archer-green { background-image: url(../i/unit/unit-unit-elf-archer-green.png); }
+.unit-image-unit-elf-archer-black { background-image: url(../i/unit/unit-unit-elf-archer-black.png); }
+.unit-image-unit-elf-archer-gray { background-image: url(../i/unit/unit-unit-elf-archer-gray.png); }
+
+/* unit-elf-cavalry */
+.unit-image-unit-elf-cavalry-red { background-image: url(../i/unit/unit-unit-elf-cavalry-red.png); }
+.unit-image-unit-elf-cavalry-blue { background-image: url(../i/unit/unit-unit-elf-cavalry-blue.png); }
+.unit-image-unit-elf-cavalry-green { background-image: url(../i/unit/unit-unit-elf-cavalry-green.png); }
+.unit-image-unit-elf-cavalry-black { background-image: url(../i/unit/unit-unit-elf-cavalry-black.png); }
+.unit-image-unit-elf-cavalry-gray { background-image: url(../i/unit/unit-unit-elf-cavalry-gray.png); }
+
+/* unit-elf-guard */
+.unit-image-unit-elf-guard-red { background-image: url(../i/unit/unit-unit-elf-guard-red.png); }
+.unit-image-unit-elf-guard-blue { background-image: url(../i/unit/unit-unit-elf-guard-blue.png); }
+.unit-image-unit-elf-guard-green { background-image: url(../i/unit/unit-unit-elf-guard-green.png); }
+.unit-image-unit-elf-guard-black { background-image: url(../i/unit/unit-unit-elf-guard-black.png); }
+.unit-image-unit-elf-guard-gray { background-image: url(../i/unit/unit-unit-elf-guard-gray.png); }
+
+/* unit-elf-hero */
+.unit-image-unit-elf-hero-red { background-image: url(../i/unit/unit-unit-elf-hero-red.png); }
+.unit-image-unit-elf-hero-blue { background-image: url(../i/unit/unit-unit-elf-hero-blue.png); }
+.unit-image-unit-elf-hero-green { background-image: url(../i/unit/unit-unit-elf-hero-green.png); }
+.unit-image-unit-elf-hero-black { background-image: url(../i/unit/unit-unit-elf-hero-black.png); }
+.unit-image-unit-elf-hero-gray { background-image: url(../i/unit/unit-unit-elf-hero-gray.png); }
+
+/* unit-elf-mage */
+.unit-image-unit-elf-mage-red { background-image: url(../i/unit/unit-unit-elf-mage-red.png); }
+.unit-image-unit-elf-mage-blue { background-image: url(../i/unit/unit-unit-elf-mage-blue.png); }
+.unit-image-unit-elf-mage-green { background-image: url(../i/unit/unit-unit-elf-mage-green.png); }
+.unit-image-unit-elf-mage-black { background-image: url(../i/unit/unit-unit-elf-mage-black.png); }
+.unit-image-unit-elf-mage-gray { background-image: url(../i/unit/unit-unit-elf-mage-gray.png); }
+
+/* unit-elf-soldier */
+.unit-image-unit-elf-soldier-red { background-image: url(../i/unit/unit-unit-elf-soldier-red.png); }
+.unit-image-unit-elf-soldier-blue { background-image: url(../i/unit/unit-unit-elf-soldier-blue.png); }
+.unit-image-unit-elf-soldier-green { background-image: url(../i/unit/unit-unit-elf-soldier-green.png); }
+.unit-image-unit-elf-soldier-black { background-image: url(../i/unit/unit-unit-elf-soldier-black.png); }
+.unit-image-unit-elf-soldier-gray { background-image: url(../i/unit/unit-unit-elf-soldier-gray.png); }
+
+/* unit-gondor-attack */
+.unit-image-unit-gondor-attack-red { background-image: url(../i/unit/unit-unit-gondor-attack-red.png); }
+.unit-image-unit-gondor-attack-blue { background-image: url(../i/unit/unit-unit-gondor-attack-blue.png); }
+.unit-image-unit-gondor-attack-green { background-image: url(../i/unit/unit-unit-gondor-attack-green.png); }
+.unit-image-unit-gondor-attack-black { background-image: url(../i/unit/unit-unit-gondor-attack-black.png); }
+.unit-image-unit-gondor-attack-gray { background-image: url(../i/unit/unit-unit-gondor-attack-gray.png); }
+
+/* unit-gondor-defend */
+.unit-image-unit-gondor-defend-red { background-image: url(../i/unit/unit-unit-gondor-defend-red.png); }
+.unit-image-unit-gondor-defend-blue { background-image: url(../i/unit/unit-unit-gondor-defend-blue.png); }
+.unit-image-unit-gondor-defend-green { background-image: url(../i/unit/unit-unit-gondor-defend-green.png); }
+.unit-image-unit-gondor-defend-black { background-image: url(../i/unit/unit-unit-gondor-defend-black.png); }
+.unit-image-unit-gondor-defend-gray { background-image: url(../i/unit/unit-unit-gondor-defend-gray.png); }
+
+/* unit-gondor-knight */
+.unit-image-unit-gondor-knight-red { background-image: url(../i/unit/unit-unit-gondor-knight-red.png); }
+.unit-image-unit-gondor-knight-blue { background-image: url(../i/unit/unit-unit-gondor-knight-blue.png); }
+.unit-image-unit-gondor-knight-green { background-image: url(../i/unit/unit-unit-gondor-knight-green.png); }
+.unit-image-unit-gondor-knight-black { background-image: url(../i/unit/unit-unit-gondor-knight-black.png); }
+.unit-image-unit-gondor-knight-gray { background-image: url(../i/unit/unit-unit-gondor-knight-gray.png); }
+
+/* unit-gondor-soldier */
+.unit-image-unit-gondor-soldier-red { background-image: url(../i/unit/unit-unit-gondor-soldier-red.png); }
+.unit-image-unit-gondor-soldier-blue { background-image: url(../i/unit/unit-unit-gondor-soldier-blue.png); }
+.unit-image-unit-gondor-soldier-green { background-image: url(../i/unit/unit-unit-gondor-soldier-green.png); }
+.unit-image-unit-gondor-soldier-black { background-image: url(../i/unit/unit-unit-gondor-soldier-black.png); }
+.unit-image-unit-gondor-soldier-gray { background-image: url(../i/unit/unit-unit-gondor-soldier-gray.png); }
+
+/* unit-mordor-berserker */
+.unit-image-unit-mordor-berserker-red { background-image: url(../i/unit/unit-unit-mordor-berserker-red.png); }
+.unit-image-unit-mordor-berserker-blue { background-image: url(../i/unit/unit-unit-mordor-berserker-blue.png); }
+.unit-image-unit-mordor-berserker-green { background-image: url(../i/unit/unit-unit-mordor-berserker-green.png); }
+.unit-image-unit-mordor-berserker-black { background-image: url(../i/unit/unit-unit-mordor-berserker-black.png); }
+.unit-image-unit-mordor-berserker-gray { background-image: url(../i/unit/unit-unit-mordor-berserker-gray.png); }
+
+/* unit-mordor-captain */
+.unit-image-unit-mordor-captain-red { background-image: url(../i/unit/unit-unit-mordor-captain-red.png); }
+.unit-image-unit-mordor-captain-blue { background-image: url(../i/unit/unit-unit-mordor-captain-blue.png); }
+.unit-image-unit-mordor-captain-green { background-image: url(../i/unit/unit-unit-mordor-captain-green.png); }
+.unit-image-unit-mordor-captain-black { background-image: url(../i/unit/unit-unit-mordor-captain-black.png); }
+.unit-image-unit-mordor-captain-gray { background-image: url(../i/unit/unit-unit-mordor-captain-gray.png); }
+
+/* unit-mordor-cavalry */
+.unit-image-unit-mordor-cavalry-red { background-image: url(../i/unit/unit-unit-mordor-cavalry-red.png); }
+.unit-image-unit-mordor-cavalry-blue { background-image: url(../i/unit/unit-unit-mordor-cavalry-blue.png); }
+.unit-image-unit-mordor-cavalry-green { background-image: url(../i/unit/unit-unit-mordor-cavalry-green.png); }
+.unit-image-unit-mordor-cavalry-black { background-image: url(../i/unit/unit-unit-mordor-cavalry-black.png); }
+.unit-image-unit-mordor-cavalry-gray { background-image: url(../i/unit/unit-unit-mordor-cavalry-gray.png); }
+
+/* unit-mordor-heavy */
+.unit-image-unit-mordor-heavy-red { background-image: url(../i/unit/unit-unit-mordor-heavy-red.png); }
+.unit-image-unit-mordor-heavy-blue { background-image: url(../i/unit/unit-unit-mordor-heavy-blue.png); }
+.unit-image-unit-mordor-heavy-green { background-image: url(../i/unit/unit-unit-mordor-heavy-green.png); }
+.unit-image-unit-mordor-heavy-black { background-image: url(../i/unit/unit-unit-mordor-heavy-black.png); }
+.unit-image-unit-mordor-heavy-gray { background-image: url(../i/unit/unit-unit-mordor-heavy-gray.png); }
+
+/* unit-mordor-orc */
+.unit-image-unit-mordor-orc-red { background-image: url(../i/unit/unit-unit-mordor-orc-red.png); }
+.unit-image-unit-mordor-orc-blue { background-image: url(../i/unit/unit-unit-mordor-orc-blue.png); }
+.unit-image-unit-mordor-orc-green { background-image: url(../i/unit/unit-unit-mordor-orc-green.png); }
+.unit-image-unit-mordor-orc-black { background-image: url(../i/unit/unit-unit-mordor-orc-black.png); }
+.unit-image-unit-mordor-orc-gray { background-image: url(../i/unit/unit-unit-mordor-orc-gray.png); }
+
+/* unit-mordor-soldier */
+.unit-image-unit-mordor-soldier-red { background-image: url(../i/unit/unit-unit-mordor-soldier-red.png); }
+.unit-image-unit-mordor-soldier-blue { background-image: url(../i/unit/unit-unit-mordor-soldier-blue.png); }
+.unit-image-unit-mordor-soldier-green { background-image: url(../i/unit/unit-unit-mordor-soldier-green.png); }
+.unit-image-unit-mordor-soldier-black { background-image: url(../i/unit/unit-unit-mordor-soldier-black.png); }
+.unit-image-unit-mordor-soldier-gray { background-image: url(../i/unit/unit-unit-mordor-soldier-gray.png); }
+
+/* unit-mordor-troll-sm */
+.unit-image-unit-mordor-troll-sm-red { background-image: url(../i/unit/unit-unit-mordor-troll-sm-red.png); }
+.unit-image-unit-mordor-troll-sm-blue { background-image: url(../i/unit/unit-unit-mordor-troll-sm-blue.png); }
+.unit-image-unit-mordor-troll-sm-green { background-image: url(../i/unit/unit-unit-mordor-troll-sm-green.png); }
+.unit-image-unit-mordor-troll-sm-black { background-image: url(../i/unit/unit-unit-mordor-troll-sm-black.png); }
+.unit-image-unit-mordor-troll-sm-gray { background-image: url(../i/unit/unit-unit-mordor-troll-sm-gray.png); }
+
+/* unit-mordor-warrior */
+.unit-image-unit-mordor-warrior-red { background-image: url(../i/unit/unit-unit-mordor-warrior-red.png); }
+.unit-image-unit-mordor-warrior-blue { background-image: url(../i/unit/unit-unit-mordor-warrior-blue.png); }
+.unit-image-unit-mordor-warrior-green { background-image: url(../i/unit/unit-unit-mordor-warrior-green.png); }
+.unit-image-unit-mordor-warrior-black { background-image: url(../i/unit/unit-unit-mordor-warrior-black.png); }
+.unit-image-unit-mordor-warrior-gray { background-image: url(../i/unit/unit-unit-mordor-warrior-gray.png); }
+
+/* unit-rohan-cav2 */
+.unit-image-unit-rohan-cav2-red { background-image: url(../i/unit/unit-unit-rohan-cav2-red.png); }
+.unit-image-unit-rohan-cav2-blue { background-image: url(../i/unit/unit-unit-rohan-cav2-blue.png); }
+.unit-image-unit-rohan-cav2-green { background-image: url(../i/unit/unit-unit-rohan-cav2-green.png); }
+.unit-image-unit-rohan-cav2-black { background-image: url(../i/unit/unit-unit-rohan-cav2-black.png); }
+.unit-image-unit-rohan-cav2-gray { background-image: url(../i/unit/unit-unit-rohan-cav2-gray.png); }
+
+/* unit-rohan-cavalry */
+.unit-image-unit-rohan-cavalry-red { background-image: url(../i/unit/unit-unit-rohan-cavalry-red.png); }
+.unit-image-unit-rohan-cavalry-blue { background-image: url(../i/unit/unit-unit-rohan-cavalry-blue.png); }
+.unit-image-unit-rohan-cavalry-green { background-image: url(../i/unit/unit-unit-rohan-cavalry-green.png); }
+.unit-image-unit-rohan-cavalry-black { background-image: url(../i/unit/unit-unit-rohan-cavalry-black.png); }
+.unit-image-unit-rohan-cavalry-gray { background-image: url(../i/unit/unit-unit-rohan-cavalry-gray.png); }
+
+/* unit-rohan-ranger */
+.unit-image-unit-rohan-ranger-red { background-image: url(../i/unit/unit-unit-rohan-ranger-red.png); }
+.unit-image-unit-rohan-ranger-blue { background-image: url(../i/unit/unit-unit-rohan-ranger-blue.png); }
+.unit-image-unit-rohan-ranger-green { background-image: url(../i/unit/unit-unit-rohan-ranger-green.png); }
+.unit-image-unit-rohan-ranger-black { background-image: url(../i/unit/unit-unit-rohan-ranger-black.png); }
+.unit-image-unit-rohan-ranger-gray { background-image: url(../i/unit/unit-unit-rohan-ranger-gray.png); }
+
+/* unit-rohan-spear */
+.unit-image-unit-rohan-spear-red { background-image: url(../i/unit/unit-unit-rohan-spear-red.png); }
+.unit-image-unit-rohan-spear-blue { background-image: url(../i/unit/unit-unit-rohan-spear-blue.png); }
+.unit-image-unit-rohan-spear-green { background-image: url(../i/unit/unit-unit-rohan-spear-green.png); }
+.unit-image-unit-rohan-spear-black { background-image: url(../i/unit/unit-unit-rohan-spear-black.png); }
+.unit-image-unit-rohan-spear-gray { background-image: url(../i/unit/unit-unit-rohan-spear-gray.png); }
+
+/* not-active grays */
+.not-active .unit-image-unit-cave-troll-red { background-image: url(../i/unit/unit-unit-cave-troll-gray.png); }
+.not-active .unit-image-unit-cave-troll-blue { background-image: url(../i/unit/unit-unit-cave-troll-gray.png); }
+.not-active .unit-image-unit-cave-troll-green { background-image: url(../i/unit/unit-unit-cave-troll-gray.png); }
+.not-active .unit-image-unit-cave-troll-black { background-image: url(../i/unit/unit-unit-cave-troll-gray.png); }
+.not-active .unit-image-unit-cave-troll-gray { background-image: url(../i/unit/unit-unit-cave-troll-gray.png); }
+.not-active .unit-image-unit-elf-archer-red { background-image: url(../i/unit/unit-unit-elf-archer-gray.png); }
+.not-active .unit-image-unit-elf-archer-blue { background-image: url(../i/unit/unit-unit-elf-archer-gray.png); }
+.not-active .unit-image-unit-elf-archer-green { background-image: url(../i/unit/unit-unit-elf-archer-gray.png); }
+.not-active .unit-image-unit-elf-archer-black { background-image: url(../i/unit/unit-unit-elf-archer-gray.png); }
+.not-active .unit-image-unit-elf-archer-gray { background-image: url(../i/unit/unit-unit-elf-archer-gray.png); }
+.not-active .unit-image-unit-elf-cavalry-red { background-image: url(../i/unit/unit-unit-elf-cavalry-gray.png); }
+.not-active .unit-image-unit-elf-cavalry-blue { background-image: url(../i/unit/unit-unit-elf-cavalry-gray.png); }
+.not-active .unit-image-unit-elf-cavalry-green { background-image: url(../i/unit/unit-unit-elf-cavalry-gray.png); }
+.not-active .unit-image-unit-elf-cavalry-black { background-image: url(../i/unit/unit-unit-elf-cavalry-gray.png); }
+.not-active .unit-image-unit-elf-cavalry-gray { background-image: url(../i/unit/unit-unit-elf-cavalry-gray.png); }
+.not-active .unit-image-unit-elf-guard-red { background-image: url(../i/unit/unit-unit-elf-guard-gray.png); }
+.not-active .unit-image-unit-elf-guard-blue { background-image: url(../i/unit/unit-unit-elf-guard-gray.png); }
+.not-active .unit-image-unit-elf-guard-green { background-image: url(../i/unit/unit-unit-elf-guard-gray.png); }
+.not-active .unit-image-unit-elf-guard-black { background-image: url(../i/unit/unit-unit-elf-guard-gray.png); }
+.not-active .unit-image-unit-elf-guard-gray { background-image: url(../i/unit/unit-unit-elf-guard-gray.png); }
+.not-active .unit-image-unit-elf-hero-red { background-image: url(../i/unit/unit-unit-elf-hero-gray.png); }
+.not-active .unit-image-unit-elf-hero-blue { background-image: url(../i/unit/unit-unit-elf-hero-gray.png); }
+.not-active .unit-image-unit-elf-hero-green { background-image: url(../i/unit/unit-unit-elf-hero-gray.png); }
+.not-active .unit-image-unit-elf-hero-black { background-image: url(../i/unit/unit-unit-elf-hero-gray.png); }
+.not-active .unit-image-unit-elf-hero-gray { background-image: url(../i/unit/unit-unit-elf-hero-gray.png); }
+.not-active .unit-image-unit-elf-mage-red { background-image: url(../i/unit/unit-unit-elf-mage-gray.png); }
+.not-active .unit-image-unit-elf-mage-blue { background-image: url(../i/unit/unit-unit-elf-mage-gray.png); }
+.not-active .unit-image-unit-elf-mage-green { background-image: url(../i/unit/unit-unit-elf-mage-gray.png); }
+.not-active .unit-image-unit-elf-mage-black { background-image: url(../i/unit/unit-unit-elf-mage-gray.png); }
+.not-active .unit-image-unit-elf-mage-gray { background-image: url(../i/unit/unit-unit-elf-mage-gray.png); }
+.not-active .unit-image-unit-elf-soldier-red { background-image: url(../i/unit/unit-unit-elf-soldier-gray.png); }
+.not-active .unit-image-unit-elf-soldier-blue { background-image: url(../i/unit/unit-unit-elf-soldier-gray.png); }
+.not-active .unit-image-unit-elf-soldier-green { background-image: url(../i/unit/unit-unit-elf-soldier-gray.png); }
+.not-active .unit-image-unit-elf-soldier-black { background-image: url(../i/unit/unit-unit-elf-soldier-gray.png); }
+.not-active .unit-image-unit-elf-soldier-gray { background-image: url(../i/unit/unit-unit-elf-soldier-gray.png); }
+.not-active .unit-image-unit-gondor-attack-red { background-image: url(../i/unit/unit-unit-gondor-attack-gray.png); }
+.not-active .unit-image-unit-gondor-attack-blue { background-image: url(../i/unit/unit-unit-gondor-attack-gray.png); }
+.not-active .unit-image-unit-gondor-attack-green { background-image: url(../i/unit/unit-unit-gondor-attack-gray.png); }
+.not-active .unit-image-unit-gondor-attack-black { background-image: url(../i/unit/unit-unit-gondor-attack-gray.png); }
+.not-active .unit-image-unit-gondor-attack-gray { background-image: url(../i/unit/unit-unit-gondor-attack-gray.png); }
+.not-active .unit-image-unit-gondor-defend-red { background-image: url(../i/unit/unit-unit-gondor-defend-gray.png); }
+.not-active .unit-image-unit-gondor-defend-blue { background-image: url(../i/unit/unit-unit-gondor-defend-gray.png); }
+.not-active .unit-image-unit-gondor-defend-green { background-image: url(../i/unit/unit-unit-gondor-defend-gray.png); }
+.not-active .unit-image-unit-gondor-defend-black { background-image: url(../i/unit/unit-unit-gondor-defend-gray.png); }
+.not-active .unit-image-unit-gondor-defend-gray { background-image: url(../i/unit/unit-unit-gondor-defend-gray.png); }
+.not-active .unit-image-unit-gondor-knight-red { background-image: url(../i/unit/unit-unit-gondor-knight-gray.png); }
+.not-active .unit-image-unit-gondor-knight-blue { background-image: url(../i/unit/unit-unit-gondor-knight-gray.png); }
+.not-active .unit-image-unit-gondor-knight-green { background-image: url(../i/unit/unit-unit-gondor-knight-gray.png); }
+.not-active .unit-image-unit-gondor-knight-black { background-image: url(../i/unit/unit-unit-gondor-knight-gray.png); }
+.not-active .unit-image-unit-gondor-knight-gray { background-image: url(../i/unit/unit-unit-gondor-knight-gray.png); }
+.not-active .unit-image-unit-gondor-soldier-red { background-image: url(../i/unit/unit-unit-gondor-soldier-gray.png); }
+.not-active .unit-image-unit-gondor-soldier-blue { background-image: url(../i/unit/unit-unit-gondor-soldier-gray.png); }
+.not-active .unit-image-unit-gondor-soldier-green { background-image: url(../i/unit/unit-unit-gondor-soldier-gray.png); }
+.not-active .unit-image-unit-gondor-soldier-black { background-image: url(../i/unit/unit-unit-gondor-soldier-gray.png); }
+.not-active .unit-image-unit-gondor-soldier-gray { background-image: url(../i/unit/unit-unit-gondor-soldier-gray.png); }
+.not-active .unit-image-unit-mordor-berserker-red { background-image: url(../i/unit/unit-unit-mordor-berserker-gray.png); }
+.not-active .unit-image-unit-mordor-berserker-blue { background-image: url(../i/unit/unit-unit-mordor-berserker-gray.png); }
+.not-active .unit-image-unit-mordor-berserker-green { background-image: url(../i/unit/unit-unit-mordor-berserker-gray.png); }
+.not-active .unit-image-unit-mordor-berserker-black { background-image: url(../i/unit/unit-unit-mordor-berserker-gray.png); }
+.not-active .unit-image-unit-mordor-berserker-gray { background-image: url(../i/unit/unit-unit-mordor-berserker-gray.png); }
+.not-active .unit-image-unit-mordor-captain-red { background-image: url(../i/unit/unit-unit-mordor-captain-gray.png); }
+.not-active .unit-image-unit-mordor-captain-blue { background-image: url(../i/unit/unit-unit-mordor-captain-gray.png); }
+.not-active .unit-image-unit-mordor-captain-green { background-image: url(../i/unit/unit-unit-mordor-captain-gray.png); }
+.not-active .unit-image-unit-mordor-captain-black { background-image: url(../i/unit/unit-unit-mordor-captain-gray.png); }
+.not-active .unit-image-unit-mordor-captain-gray { background-image: url(../i/unit/unit-unit-mordor-captain-gray.png); }
+.not-active .unit-image-unit-mordor-cavalry-red { background-image: url(../i/unit/unit-unit-mordor-cavalry-gray.png); }
+.not-active .unit-image-unit-mordor-cavalry-blue { background-image: url(../i/unit/unit-unit-mordor-cavalry-gray.png); }
+.not-active .unit-image-unit-mordor-cavalry-green { background-image: url(../i/unit/unit-unit-mordor-cavalry-gray.png); }
+.not-active .unit-image-unit-mordor-cavalry-black { background-image: url(../i/unit/unit-unit-mordor-cavalry-gray.png); }
+.not-active .unit-image-unit-mordor-cavalry-gray { background-image: url(../i/unit/unit-unit-mordor-cavalry-gray.png); }
+.not-active .unit-image-unit-mordor-heavy-red { background-image: url(../i/unit/unit-unit-mordor-heavy-gray.png); }
+.not-active .unit-image-unit-mordor-heavy-blue { background-image: url(../i/unit/unit-unit-mordor-heavy-gray.png); }
+.not-active .unit-image-unit-mordor-heavy-green { background-image: url(../i/unit/unit-unit-mordor-heavy-gray.png); }
+.not-active .unit-image-unit-mordor-heavy-black { background-image: url(../i/unit/unit-unit-mordor-heavy-gray.png); }
+.not-active .unit-image-unit-mordor-heavy-gray { background-image: url(../i/unit/unit-unit-mordor-heavy-gray.png); }
+.not-active .unit-image-unit-mordor-orc-red { background-image: url(../i/unit/unit-unit-mordor-orc-gray.png); }
+.not-active .unit-image-unit-mordor-orc-blue { background-image: url(../i/unit/unit-unit-mordor-orc-gray.png); }
+.not-active .unit-image-unit-mordor-orc-green { background-image: url(../i/unit/unit-unit-mordor-orc-gray.png); }
+.not-active .unit-image-unit-mordor-orc-black { background-image: url(../i/unit/unit-unit-mordor-orc-gray.png); }
+.not-active .unit-image-unit-mordor-orc-gray { background-image: url(../i/unit/unit-unit-mordor-orc-gray.png); }
+.not-active .unit-image-unit-mordor-soldier-red { background-image: url(../i/unit/unit-unit-mordor-soldier-gray.png); }
+.not-active .unit-image-unit-mordor-soldier-blue { background-image: url(../i/unit/unit-unit-mordor-soldier-gray.png); }
+.not-active .unit-image-unit-mordor-soldier-green { background-image: url(../i/unit/unit-unit-mordor-soldier-gray.png); }
+.not-active .unit-image-unit-mordor-soldier-black { background-image: url(../i/unit/unit-unit-mordor-soldier-gray.png); }
+.not-active .unit-image-unit-mordor-soldier-gray { background-image: url(../i/unit/unit-unit-mordor-soldier-gray.png); }
+.not-active .unit-image-unit-mordor-troll-sm-red { background-image: url(../i/unit/unit-unit-mordor-troll-sm-gray.png); }
+.not-active .unit-image-unit-mordor-troll-sm-blue { background-image: url(../i/unit/unit-unit-mordor-troll-sm-gray.png); }
+.not-active .unit-image-unit-mordor-troll-sm-green { background-image: url(../i/unit/unit-unit-mordor-troll-sm-gray.png); }
+.not-active .unit-image-unit-mordor-troll-sm-black { background-image: url(../i/unit/unit-unit-mordor-troll-sm-gray.png); }
+.not-active .unit-image-unit-mordor-troll-sm-gray { background-image: url(../i/unit/unit-unit-mordor-troll-sm-gray.png); }
+.not-active .unit-image-unit-mordor-warrior-red { background-image: url(../i/unit/unit-unit-mordor-warrior-gray.png); }
+.not-active .unit-image-unit-mordor-warrior-blue { background-image: url(../i/unit/unit-unit-mordor-warrior-gray.png); }
+.not-active .unit-image-unit-mordor-warrior-green { background-image: url(../i/unit/unit-unit-mordor-warrior-gray.png); }
+.not-active .unit-image-unit-mordor-warrior-black { background-image: url(../i/unit/unit-unit-mordor-warrior-gray.png); }
+.not-active .unit-image-unit-mordor-warrior-gray { background-image: url(../i/unit/unit-unit-mordor-warrior-gray.png); }
+.not-active .unit-image-unit-rohan-cav2-red { background-image: url(../i/unit/unit-unit-rohan-cav2-gray.png); }
+.not-active .unit-image-unit-rohan-cav2-blue { background-image: url(../i/unit/unit-unit-rohan-cav2-gray.png); }
+.not-active .unit-image-unit-rohan-cav2-green { background-image: url(../i/unit/unit-unit-rohan-cav2-gray.png); }
+.not-active .unit-image-unit-rohan-cav2-black { background-image: url(../i/unit/unit-unit-rohan-cav2-gray.png); }
+.not-active .unit-image-unit-rohan-cav2-gray { background-image: url(../i/unit/unit-unit-rohan-cav2-gray.png); }
+.not-active .unit-image-unit-rohan-cavalry-red { background-image: url(../i/unit/unit-unit-rohan-cavalry-gray.png); }
+.not-active .unit-image-unit-rohan-cavalry-blue { background-image: url(../i/unit/unit-unit-rohan-cavalry-gray.png); }
+.not-active .unit-image-unit-rohan-cavalry-green { background-image: url(../i/unit/unit-unit-rohan-cavalry-gray.png); }
+.not-active .unit-image-unit-rohan-cavalry-black { background-image: url(../i/unit/unit-unit-rohan-cavalry-gray.png); }
+.not-active .unit-image-unit-rohan-cavalry-gray { background-image: url(../i/unit/unit-unit-rohan-cavalry-gray.png); }
+.not-active .unit-image-unit-rohan-ranger-red { background-image: url(../i/unit/unit-unit-rohan-ranger-gray.png); }
+.not-active .unit-image-unit-rohan-ranger-blue { background-image: url(../i/unit/unit-unit-rohan-ranger-gray.png); }
+.not-active .unit-image-unit-rohan-ranger-green { background-image: url(../i/unit/unit-unit-rohan-ranger-gray.png); }
+.not-active .unit-image-unit-rohan-ranger-black { background-image: url(../i/unit/unit-unit-rohan-ranger-gray.png); }
+.not-active .unit-image-unit-rohan-ranger-gray { background-image: url(../i/unit/unit-unit-rohan-ranger-gray.png); }
+.not-active .unit-image-unit-rohan-spear-red { background-image: url(../i/unit/unit-unit-rohan-spear-gray.png); }
+.not-active .unit-image-unit-rohan-spear-blue { background-image: url(../i/unit/unit-unit-rohan-spear-gray.png); }
+.not-active .unit-image-unit-rohan-spear-green { background-image: url(../i/unit/unit-unit-rohan-spear-gray.png); }
+.not-active .unit-image-unit-rohan-spear-black { background-image: url(../i/unit/unit-unit-rohan-spear-gray.png); }
+.not-active .unit-image-unit-rohan-spear-gray { background-image: url(../i/unit/unit-unit-rohan-spear-gray.png); }
