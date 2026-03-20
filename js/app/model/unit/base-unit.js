@@ -586,11 +586,13 @@
 				enemyX = enemy.get('x'),
 				enemyY = enemy.get('y'),
 				dX = Math.abs(unitX - enemyX),
-				dY = Math.abs(unitY - enemyY);
+				dY = Math.abs(unitY - enemyY),
+				dist = dX + dY,
+				unitAttackRange = unit.get('attackRange') || 1;
 
-			var dist = dX + dY;
-			var unitRange = unit.get('attackRange') || 1;
-			return dist >= 1 && dist <= unitRange;
+			// Ranged units (attackRange > 1) can counter if attacker is within their range
+			// Melee units can only counter adjacent attacks (dist <= 1)
+			return dist <= unitAttackRange;
 
 		},
 
